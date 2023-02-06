@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
 
-function Cut() {
+function Cut(props) {
   return (
     <div>Cut</div>
   )

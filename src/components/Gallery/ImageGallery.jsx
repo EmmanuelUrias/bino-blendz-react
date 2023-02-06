@@ -1,6 +1,6 @@
 import './ImageGallery.css'
 import { useState, useEffect } from 'react'
-import images from './images'
+import images from '../images'
 import GalleryCards from './ImageGalleryCard'
 
 function ImageGallery() {
@@ -25,6 +25,11 @@ function ImageGallery() {
 
         window.addEventListener('resize', makeImageSmaller)
 
+        const cards = [
+            { id: 1, title: 'Card 1' },
+            { id: 2, title: 'Card 2' },
+            { id: 3, title: 'Card 3' },        
+        ]
  
   return (
     <div className="image-gallery-container">
@@ -35,7 +40,10 @@ function ImageGallery() {
                  <p className='image-description'>{image.description}</p>
             </div>
         ))} */}
-        <GalleryCards />
+
+        {cards.map((card) => (
+        <GalleryCards key={card.id} {...card} />
+      ))}
 
     </div>
   )
