@@ -9,7 +9,7 @@ function Hero() {
         <h1>Best Barber in Vegas</h1>
         <p>Look better than ever</p>
         <div className="hero-btns">
-            <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+            <Button path='/cuts' className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
                 Get Started
             </Button>
             <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
