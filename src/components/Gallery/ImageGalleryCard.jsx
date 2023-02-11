@@ -9,9 +9,9 @@ import './ImageGallery.css'
 
 function GalleryCards() {
    
-    const cardDetails = ({match}) => {
-        const  { id }  = match.params
-    }
+    // const cardDetails = ({match}) => {
+    //     const  { id }  = match.params
+    // }
 
   return (
     <div className='cards'>
@@ -24,14 +24,14 @@ function GalleryCards() {
                     src='./images/coolImg.jpg'
                     text='Get fresh'
                     label='High Fade'
-                    path= {`/cut/${id}`}
+                    path= {`/cut`} // add /${id} later
                     />
                      <ImageGalleryCardItem
                     id={2}
                     src='./images/coolImg.jpg'
                     text='Get laid'
                     label='High Fade'
-                    path= {`/cut/${id}`}
+                    path= {`/cut`}
                     />
                 </ul>
                 <ul>
@@ -40,14 +40,14 @@ function GalleryCards() {
                     src='./images/coolImg.jpg'
                     text='Get laid'
                     label='High Fade'
-                    path= {`/cut/${id}`}
+                    path= {`/cut`}
                     />
                     <ImageGalleryCardItem
                     id={4}
                     src='./images/coolImg.jpg'
                     text='Get bitches'
                     label='High Fade'
-                    path= {`/cut/${id}`}
+                    path= {`/cut}`}
                     />
                 </ul>
             </div>

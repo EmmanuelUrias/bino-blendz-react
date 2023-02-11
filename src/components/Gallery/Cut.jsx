@@ -3,7 +3,7 @@ import '../../App.css'
 
 function Cut(props) {
   return (
-    <div>Cut</div>
+    <div>{props.text}</div>
   )
 }
 

@@ -3,7 +3,6 @@ import './ImageGallery.css'
 import { Link } from 'react-router-dom'
 
 function ImageGalleryCardItem(props) {
-    const { id } = match.params;
   return (
     <div>
         <ul className='cards-item'>

@@ -9,6 +9,7 @@ import AboutUs from './components/pages/AboutUs';
 import BookNow from './components/pages/BookNow';
 import Cut from './components/Gallery/Cut';
 import ImageGalleryCardItem from './components/Gallery/ImageGalleryCardItem';
+import CutPage from './components/pages/CutPage';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path='/' exact element={<Home />}/>
         <Route path='/cuts' exact element={<Cuts />}/>
-        <Route path={`/cut/:id`} render={(props) => <ImageGalleryCardItem{...props}/>}/>
+        <Route path='/cut' element={<CutPage />}/>
         <Route path='/aboutus' exact element={<AboutUs />}/>
         <Route path='/booknow' exact element={<BookNow />}/>
       </Routes>
