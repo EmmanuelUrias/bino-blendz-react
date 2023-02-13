@@ -71,6 +71,10 @@
     color: #fff;
 }
 
+.fa-bars:hover {
+    color: #D4AF37;
+}
+
 .nav-links-mobile {
     display: none;
 }
@@ -138,6 +142,10 @@
     .fa-times {
         color: #fff;
         font-size: 2rem;
+    }
+
+    .fa-times:hover {
+        color: #D4AF37;
     }
 
     .nav-links-mobile {
