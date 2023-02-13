@@ -1,9 +1,12 @@
-import ImageGallery from "../Gallery/ImageGallery"
+import CardItemPageData from "../CardItemPageData"
+import Cards from "../Cards"
+import { useLocation } from "react-router-dom"
 
 function Cuts() {
+
   return (
     <div>
-        <ImageGallery />
+        <Cards />
     </div>
   )
 }

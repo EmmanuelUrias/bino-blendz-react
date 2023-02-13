@@ -82,7 +82,7 @@
 }
 
 .footer-link-items a:hover {
-    color: rgb(160, 132, 47);
+    color: #D4AF37;
     transition: 0.3s ease-out;
 }
 
@@ -97,6 +97,10 @@
 .social-icons-link {
     color: #fff;
     font-size: 24px;
+}
+
+.social-icons-link:hover {
+    color: #D4AF37;
 }
 
 .social-media {
@@ -131,6 +135,10 @@
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+}
+
+.social-logo:hover {
+    color: #D4AF37;
 }
 
 .website-rights {

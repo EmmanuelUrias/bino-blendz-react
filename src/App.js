@@ -7,8 +7,6 @@ import Hero from './components/Hero';
 import Cuts from './components/pages/Cuts';
 import AboutUs from './components/pages/AboutUs';
 import BookNow from './components/pages/BookNow';
-import Cut from './components/Gallery/Cut';
-import ImageGalleryCardItem from './components/Gallery/ImageGalleryCardItem';
 import CutPage from './components/pages/CutPage';
 
 function App() {

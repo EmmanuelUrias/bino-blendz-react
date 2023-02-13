@@ -4,6 +4,7 @@
 }
 
 h1 {
+    color: #242424;
     text-align: center;
 }
 
@@ -12,17 +13,27 @@ h1 {
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .cards-wrapper {
     position: relative;
     margin: 50px 0 45px;
+    max-width: 790px;
+    width: 450px;
+}
+
+.cards-wrapper-cuts {
+    position: relative;
+    margin: 50px 0 45px;
+    max-width: 690px;
+    width: 550px;
 }
 
 .cards-items {
     margin-bottom: 24px;
+    margin-left: -27px;
 }
 
 .cards-item {
@@ -30,15 +41,18 @@ h1 {
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    width: 100%;
+    margin-bottom: 3rem;
 }
 
 .cards-item-link {
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    background-color: rgb(245, 239, 239);
+    box-shadow: 0 1px 15px #D4AF37;
+    -webkit-filter: drop-shadow(0 6px 20px #D4AF37);
+    filter: drop-shadow(0 6px 20px #D4AF37);
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
@@ -65,8 +79,8 @@ h1 {
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight:700;
-    color: #fff;
-    background-color: #1f98f4;
+    color: #D4AF37;
+    background-color: #fff;
     box-sizing: border-box;
 }
 
@@ -94,7 +108,7 @@ h1 {
 }
 
 .cards-item-text {
-    color: #252e48;
+    color: #242424;
     font-size: 18px;
     line-height: 24px;
 }
@@ -112,7 +126,16 @@ h1 {
   }
 
 @media screen and (max-width: 1024px) {
+    .cards-wrapper, .cards-wrapper-cuts {
+        width: 350px;
+    }
     .cards-item {
         margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .cards-wrapper, .cards-wrapper-cuts{
+        width: 250px;
     }
 }
