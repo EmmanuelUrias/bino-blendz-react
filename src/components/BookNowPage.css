@@ -1,0 +1,30 @@
+.book-page {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn-section {
+    background-image: url('/public/images/coolImg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 66.66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .bottom-third {
+    background-color: black;
+    height: 33.33%;
+  }
