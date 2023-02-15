@@ -1,5 +1,5 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
-const CardDataContext = createContext()
+const CutDataContext = createContext()
 
-export default CardDataContext
+export default CutDataContext
