@@ -18,6 +18,7 @@ function CardItemPageData(props) {
                      thumbnail={data.thumbnail}
                      text={data.text}
                      label={data.label}
+                     price={data.price}
                      path={data.path}
                      />
                 </Link>

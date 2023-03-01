@@ -1,20 +1,15 @@
 import { useEffect } from 'react';
-import withRouter from './WithRouter'
-import { useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function AutoScrollToTop() {
-    const history = useNavigate()
+    const location = useLocation()
 
   useEffect(() => {
-    const unlisten = history.listen(() => {
-      window.scrollTo(0, 0);
-    });
-    return () => {
-      unlisten();
-    }
-  }, [history]);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 
-  return null;
+  }, [location]);
+
+  return null
 }
 
 export default AutoScrollToTop;

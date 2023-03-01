@@ -14,6 +14,7 @@ function CardItem(props) {
                     </figure>
                     <div className="cards-item-info">
                         <h5 className="cards-item-text">{props.text}</h5>
+                        <h5 className='cards-item-price'>{props.price}</h5>
                     </div>
                 </Link>
             </ul>

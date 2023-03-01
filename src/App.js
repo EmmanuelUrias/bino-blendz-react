@@ -9,7 +9,7 @@ import BookNow from './components/pages/BookNow';
 import CutDataContext from './components/CutDataContext';
 import { useState } from 'react';
 import Cut from './components/Cut';
-// import AutoScrollToTop from './components/AutoScrollToTop';
+import AutoScrollToTop from './components/AutoScrollToTop';
 
 function App() {
   const [cutData, setCutData] = useState([
@@ -34,6 +34,7 @@ function App() {
       text: 'Get fresh',
       label: 'High Fade',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      price: '$35',
       path: '/cut/1'
   }, {
       id: 2,
@@ -90,6 +91,7 @@ function App() {
     <CutDataContext.Provider value={{cutData, updateCutData}}>
       <div className="App">
         <Navbar />
+        <AutoScrollToTop />
         {/* <AutoScrollToTop /> */}
         <Routes>
           <Route path='/' exact element={<Home />}/>
