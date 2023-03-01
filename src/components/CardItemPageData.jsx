@@ -15,7 +15,7 @@ function CardItemPageData(props) {
                     <CardItem 
                      key={data.id}
                      id={data.id}
-                     src={data.src}
+                     thumbnail={data.thumbnail}
                      text={data.text}
                      label={data.label}
                      path={data.path}

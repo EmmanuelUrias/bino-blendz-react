@@ -1,0 +1,55 @@
+.cutPage {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr auto;
+    grid-gap: 6px;
+    width: 550px;
+    max-width: 700px;
+    margin-left: 150px;
+    margin-top: 80px;
+  }
+  
+  .gallery-images {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  .gallery-images:nth-child(4) {
+    grid-column: 1 / 4;
+    grid-row: 2;
+  }
+
+  .cutPage-text-container {
+    margin-top: -500px;
+    margin-left: 780px;
+    max-width: 600px;
+  }
+
+  .cutPage-title {
+    font-size: 60px
+  }
+
+  .cutPage-text {
+    font-size: 23px
+
+  }
+
+  .cutPage-description {
+    font-size: 18px;
+  }
+
+  .btn-container {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    background: #242424;
+  }
