@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Cards.css'
-import CardItem from './CardItem'
 import CardItemPageData from './CardItemPageData'
-import CardDataContext from './CutDataContext'
 import { useLocation } from "react-router-dom"
 
 

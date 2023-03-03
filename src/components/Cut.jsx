@@ -5,7 +5,6 @@ import { useContext } from 'react';
 import './CutPage.css'
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 
 function Cut(props) {
     const { cutData } = useContext(CutDataContext) 
