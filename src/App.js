@@ -14,7 +14,8 @@ import AutoScrollToTop from './components/AutoScrollToTop';
 function App() {
   const [cutData, setCutData] = useState([
     {
-      id: 1,
+      id: 'fades',
+      key: 1,
       thumbnail: './images/coolImg.jpg',
       galleryImgs: [
         {
@@ -30,14 +31,15 @@ function App() {
           img4: './images/coolImg.jpg'
         }
       ],
-      title: 'High Fade',
-      text: 'Get fresh',
-      label: 'High Fade',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      title: 'Fades',
+      text: 'Pick from a wide selection of Fades',
+      label: 'Fades',
+      description: 'Choose between a high, mid, or low fade. Fades are the best way to get clean sharp look while being tailored to your unique head shape.',
       price: '$35',
-      path: '/cut/1'
+      path: '/haircut/fades'
   }, {
-      id: 2,
+      id: 'tapers',
+      key: 2,
       thumbnail: './images/coolImg.jpg',
       galleryImgs: [
         {
@@ -53,13 +55,15 @@ function App() {
           img4: './images/coolImg.jpg'
         }
       ],      
-      title: 'High Fade',
-      text:'Get cut',
-      label: 'High Fade',
-      description: '',
-      path: '/cut/2'
+      title: 'Tapers',
+      text:'You can never go wrong with a Taper',
+      label: 'Tapers',
+      description: 'Keep the bulk of your hair while still maintaining a clean sharp look. Consult Bino for the taper that fits you best',
+      price: '$35',
+      path: '/haircut/tapers'
   }, {
-      id: 3,
+      id: 'designs',
+      key: 3,
       thumbnail: './images/coolImg.jpg',
       galleryImgs: [
         {
@@ -75,11 +79,12 @@ function App() {
           img4: './images/coolImg.jpg'
         }
       ],
-      title: 'High Fade',      
-      text: 'Get laid',
-      label: 'High Fade',
-      description: '',
-      path: '/cut/3'
+      title: 'Designs',      
+      text: 'Make your haircut pop a little bit more',
+      label: 'Designs',
+      description: 'Choose from the gallery or bring in a picture of a design you like. If you can\'t decide, don\'t worry, just ask for a freestyle for a guaranteed fresh design',
+      price: 'Free',
+      path: '/haircut/designs'
   }
   ])
 
@@ -95,8 +100,8 @@ function App() {
         {/* <AutoScrollToTop /> */}
         <Routes>
           <Route path='/' exact element={<Home />}/>
-          <Route path='/cuts' exact element={<Cuts />}/>
-          <Route path='/cut/:id' element={<Cut cutData={cutData} />} />
+          <Route path='/haircuts' exact element={<Cuts />}/>
+          <Route path='/haircut/:id' element={<Cut cutData={cutData} />} />
           <Route path='/aboutus' exact element={<AboutUs />}/>
           <Route path='/booknow' exact element={<BookNow />}/>
         </Routes>

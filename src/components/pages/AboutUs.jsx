@@ -10,7 +10,7 @@ function AboutUs() {
         <main>
           <section>
             <h2>My Story</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet accumsan ipsum. Sed tristique urna a massa rhoncus, in pharetra sapien congue. Fusce id enim vel lectus lobortis accumsan. </p>
+            <p>In my sophomore year of highschool, I decided to take up barbering as a hobby within minutes of just researching the craft I fell in love. Ever since, I have been reflecting on my craft and devoting myself to being the best barber I can be.</p>
           </section>
           <section>
             <h2>Me</h2>
@@ -20,7 +20,7 @@ function AboutUs() {
           </section>
           <section>
             <h2>My Goals</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet accumsan ipsum. Sed tristique urna a massa rhoncus, in pharetra sapien congue. Fusce id enim vel lectus lobortis accumsan. </p>
+            <p>After seeing other barbers become successful and gain financial freedom through barbering, I knew that's what I wanted. On my way to the top, I've cut up various celebrities like all of Grupo Frontera, David Valdez, Jhonny Caz, and many more. Through barbering, I realized my potential. And I won't stop working until I get what I'm after.</p>
           </section>
         </main>
     </div>

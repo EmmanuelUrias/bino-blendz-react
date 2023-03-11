@@ -12,7 +12,7 @@ function Cut(props) {
     const { id } = useParams();
 
     // Find the object with the specified ID
-    const cutObject = cutData.find(obj => obj.id === parseInt(id));
+    const cutObject = cutData.find(obj => obj.id === id);
   
     // If the object with the specified ID was not found, show an error message
     if (!cutObject) {

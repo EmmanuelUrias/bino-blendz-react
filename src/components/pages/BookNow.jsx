@@ -8,7 +8,7 @@ function BookNow() {
       <div className="instagram-link-container">
       <div className='instagram-link' dangerouslySetInnerHTML={{ __html: instagramEmbedCode }} />
       </div>
-      <p className='click-link-text'>click the link above to book an appointment</p>
+      <p className='click-link-text'>Click the link above to book an appointment</p>
     </div>
   )
 }

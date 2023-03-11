@@ -11,9 +11,9 @@ function CardItemPageData(props) {
     return (
         <div>
             {cutData.map(data => (
-                <Link to={data.path} key={data.id}>
+                <Link to={data.path} key={data.key}>
                     <CardItem 
-                     key={data.id}
+                     key={data.key}
                      id={data.id}
                      thumbnail={data.thumbnail}
                      text={data.text}

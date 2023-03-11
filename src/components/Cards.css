@@ -74,11 +74,11 @@ h1 {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
-    margin-left: 10px;
-    padding: 6px 8px;
+    margin-left: 15px;
+    padding: 6px 12px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
-    font-weight:700;
+    font-size: 18px;
+    font-weight: 600;
     color: #D4AF37;
     background-color: #fff;
     box-sizing: border-box;
@@ -109,13 +109,14 @@ h1 {
 
 .cards-item-text {
     color: #242424;
-    font-size: 18px;
+    font-size: 26px;
     line-height: 24px;
 }
 
 .cards-item-price {
     color: #242424;
-    font-size: 14px;
+    font-size: 18px;
+    margin-top: 3px;
     line-height: 24px; 
 }
 

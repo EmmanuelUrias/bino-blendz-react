@@ -8,7 +8,7 @@ function Cards() {
     const location = useLocation()
     let className = 'cards-wrapper'
 
-    if(location.pathname.endsWith('/cuts')) {
+    if(location.pathname.endsWith('/haircuts')) {
         className += '-cuts'
     }
 

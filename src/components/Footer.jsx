@@ -12,14 +12,9 @@ function Footer() {
                 Book Now with BinoBlendz
             </p>
             <p className="footer-booknow-text">
-                bloop blop
+            Las Vegas<br/>Celebrity Experience
             </p>
-            <div className="input-area">
-                <form>
-                    <input type='email' name='email' placeholder='Your Email' className='footer-input'></input>
-                    <Button buttonStyle='btn-outline'>Book Now</Button>
-                </form>
-            </div>
+
         </section>
         <div className='footer-links'>
             <div className="footer-link-wrapper">
@@ -60,15 +55,15 @@ function Footer() {
                 </div>
                 <small className="website-rights">BinoBlendz © 2023</small>
                 <div className="social-icons">
-                    <Link to='/' className="social-icons-link" target='_blank' aria-label='Facebook'>
+                    <a href='' className="social-icons-link" target='_blank' aria-label='Facebook'>
                         <i className='fab fa-facebook'></i>
-                    </Link>
-                    <Link to='/' className="social-icons-link" target='_blank' aria-label='Instagram'>
+                    </a>
+                    <a href='https://www.instagram.com/bino.blendz/' className="social-icons-link" target='_blank' aria-label='Instagram'>
                         <i className='fab fa-instagram'></i>
-                    </Link>
-                    <Link to='/' className="social-icons-link" target='_blank' aria-label='Twitter'>
+                    </a>
+                    <a href='' className="social-icons-link" target='_blank' aria-label='Twitter'>
                         <i className='fab fa-twitter'></i>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </section>
