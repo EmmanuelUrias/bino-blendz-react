@@ -7,7 +7,11 @@ video {
 }
 
 .hero-container {
-    background: url('/public/images/coolImg.jpg') center center/cover no-repeat; 
+    background: url('/public/images/Logo.JPG'); 
+    background-color: black;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -15,13 +19,14 @@ video {
     justify-content: center;
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .hero-container > h1 {
     color: #fff;
-    font-size: 70px;
-    margin-top: 100px;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 550px;
 }
 
 .hero-container > p {
@@ -30,10 +35,11 @@ video {
     color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+    display: none;
 }
 
 .hero-btns {
-    margin-top: 32px;
+    margin-top: 2px;
 }
 
 .hero-btn .btns {
@@ -46,15 +52,16 @@ video {
 
 @media screen and (max-width:960px) {
     .hero-container > h1 {
-        font-size: 70px;
-        margin-top: -150px;
+        font-size: 50px;
+    }
+    .hero-btns {
+        margin-top: -80px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .hero-container > h1 {
         font-size: 50px;
-        margin-top: -100px;
     }
 
     .hero-container > p {
@@ -68,6 +75,37 @@ video {
 
     .btn {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .hero-btns {
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width: 429px){
+    .hero-container > h1 {
+        font-size: 40px;
+    }
+    .hero-btns {
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .hero-container > h1 {
+        font-size: 30px;
+    }
+
+    .hero-btns {
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .hero-btns {
+        margin-top: -160px;
     }
 }
 

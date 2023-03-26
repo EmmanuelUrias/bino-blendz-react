@@ -6,7 +6,7 @@ import { useContext } from 'react'
 
 
 function CardItemPageData(props) {
-    const { cutData, updateCutData } = useContext(CutDataContext)
+    const { cutData } = useContext(CutDataContext)
 
     return (
         <div>
