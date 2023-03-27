@@ -5,8 +5,6 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
-    //BUGS!!: When the page is minimized and you scroll to the left the navbar does not follow it 
-
     const [click, setClick] = useState(false)
     const [button, setButton] = useState(true)
 

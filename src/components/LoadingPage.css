@@ -1,4 +1,20 @@
 .loading-page {
-    background-image: url("'/public/images/Logo.JPG'");
-    
+    background-color: black;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    height: 800px;
+    width: 300px;
 }
