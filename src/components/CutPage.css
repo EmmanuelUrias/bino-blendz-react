@@ -142,6 +142,10 @@
     width: 350px;
     max-width: 400px;
   }
+
+  .gallery-images:hover {
+    transform: none;
+  }
   
     .cutPage-text-container {
       width: 350px;
