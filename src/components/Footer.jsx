@@ -20,29 +20,11 @@ function Footer() {
             <div className="footer-link-wrapper">
                 <div className="footer-link-items">
                     <h2>About Us</h2>
-                    <Link to='/booknow'>Make an Appointment</Link>
-                    <Link to='/cuts'>View a variety of haircuts</Link>
                     <Link to='/aboutus'>Read even more on us</Link>
                 </div>
                 <div className="footer-link-items">
                     <h2>Contact Us</h2>
                     <Link to='/booknow'>Make an Appointment</Link>
-                    <Link to='/cuts'>View a variety of haircuts</Link>
-                    <Link to='/aboutus'>Read even more on us</Link>
-                </div>
-            </div>
-            <div className="footer-link-wrapper">
-                <div className="footer-link-items">
-                    <h2>Social Media</h2>
-                    <Link to='/booknow'>Make an Appointment</Link>
-                    <Link to='/cuts'>View a variety of haircuts</Link>
-                    <Link to='/aboutus'>Read even more on us</Link>
-                </div>
-                <div className="footer-link-items">
-                    <h2>Other Barbers</h2>
-                    <Link to='/booknow'>Make an Appointment</Link>
-                    <Link to='/cuts'>View a variety of haircuts</Link>
-                    <Link to='/aboutus'>Read even more on us</Link>
                 </div>
             </div>
         </div>
